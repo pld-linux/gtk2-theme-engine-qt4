@@ -1,0 +1,11 @@
+diff -Nur gtk-qt-engine.orig/src/qt_theme_draw.c gtk-qt-engine.chng/src/qt_theme_draw.c
+--- gtk-qt-engine.orig/src/qt_theme_draw.c	2008-03-11 02:30:19.000000000 +0100
++++ gtk-qt-engine.chng/src/qt_theme_draw.c	2008-11-09 08:49:12.000000000 +0100
+@@ -24,6 +24,7 @@
+ #include <gdk/gdk.h>
+ #include <gtk/gtk.h>
+ #include <glib/glist.h>
++#include <stdlib.h>
+ 
+ #ifdef HAVE_BONOBO
+ #include <libbonobo.h>
