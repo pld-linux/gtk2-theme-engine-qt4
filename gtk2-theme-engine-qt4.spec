@@ -2,24 +2,27 @@ Summary:	A GTK+ theme engine that uses Qt4 for drawing
 Summary(pl.UTF-8):	Silnik graficzny wykorzystujący Qt4 do rysowania kontrolek GTK+
 Name:		gtk2-theme-engine-qt4
 Version:	1.1
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Themes/GTK+
 Source0:	http://gtk-qt.ecs.soton.ac.uk/files/%{version}/gtk-qt-engine-%{version}.tar.bz2
 # Source0-md5:	de8048baef7dfe6c97cd97c463d66152
 Patch0:		%{name}-build.patch
 URL:		http://gtk-qt.ecs.soton.ac.uk/
-BuildRequires:	autoconf
-BuildRequires:	automake
+BuildRequires:	Qt3Support-devel
+BuildRequires:	QtGui-devel
+BuildRequires:	QtSvg-devel
 BuildRequires:	cmake
 BuildRequires:	gtk+2-devel >= 1:2.0.0
-BuildRequires:	QtGui-devel
+BuildRequires:	kde4-kdebase-devel
+BuildRequires:	libbonoboui-devel
+BuildRequires:	qt4-qmake
 BuildRequires:	rpmbuild(macros) >= 1.293
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This GTK+ theme engine uses the currently selected Qt4 style to do it's
-drawing. Basically, it makes your GTK+ apps look like Qt4 ones.
+This GTK+ theme engine uses the currently selected Qt4 style to do
+it's drawing. Basically, it makes your GTK+ apps look like Qt4 ones.
 
 %description -l pl.UTF-8
 Ten silnik graficzny do rysowania kontrolek GTK+ używa aktualnie
