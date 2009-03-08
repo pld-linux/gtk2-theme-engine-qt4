@@ -15,6 +15,7 @@ BuildRequires:	QtSvg-devel
 BuildRequires:	cmake
 BuildRequires:	gtk+2-devel >= 1:2.0.0
 BuildRequires:	kde4-kdebase-devel
+BuildRequires:	kde4-kdebase-workspace-devel
 BuildRequires:	libbonoboui-devel
 BuildRequires:	qt4-qmake
 BuildRequires:	rpmbuild(macros) >= 1.293
