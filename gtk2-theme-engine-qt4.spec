@@ -2,7 +2,7 @@ Summary:	A GTK+ theme engine that uses Qt4 for drawing
 Summary(pl.UTF-8):	Silnik graficzny wykorzystujący Qt4 do rysowania kontrolek GTK+
 Name:		gtk2-theme-engine-qt4
 Version:	1.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Themes/GTK+
 Source0:	http://gtk-qt.ecs.soton.ac.uk/files/%{version}/gtk-qt-engine-%{version}.tar.bz2
