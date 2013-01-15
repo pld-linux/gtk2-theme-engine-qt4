@@ -5,10 +5,10 @@ Version:	1.1
 Release:	2
 License:	GPL
 Group:		Themes/GTK+
-Source0:	http://gtk-qt.ecs.soton.ac.uk/files/%{version}/gtk-qt-engine-%{version}.tar.bz2
+Source0:	http://gtk-qt-engine.googlecode.com/files/gtk-qt-engine-%{version}.tar.bz2
 # Source0-md5:	de8048baef7dfe6c97cd97c463d66152
 Patch0:		%{name}-build.patch
-URL:		http://gtk-qt.ecs.soton.ac.uk/
+URL:		http://code.google.com/p/gtk-qt-engine/
 BuildRequires:	Qt3Support-devel
 BuildRequires:	QtGui-devel
 BuildRequires:	QtSvg-devel
