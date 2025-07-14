@@ -32,7 +32,7 @@ wyglądają jak aplikacje Qt4.
 
 %prep
 %setup -q -n gtk-qt-engine
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %cmake \
